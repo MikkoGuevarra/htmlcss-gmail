@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+.header-part, .navigator, .messages, .lower-part {
+    width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+
+header img {
+    width: 250px;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+}
+
+.navigator {
+    color: white;
+    font-size: 30px;
+}
+
+#text-area {
+    width: 200px;
+    font-size: 18px;
+}
+
+#btn-area {
+    width: 50px;
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: gold;
+    border-radius: 50%;
+}
+
+.colon-left, .colon-right {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.colon-left {
+    width: 200px;
+}
+
+.colon-right {
+    width: 500px;
+
+}
+
+.read, .unread {
+    border: 1px solid black;
+    padding: 2px;
+}
+.read {
+    background-color: gray;
+}
+
+.unread {
+    background-color: lightgray;
+}
+
+.lower-part {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.messages {
+    padding: 5px;
+}
